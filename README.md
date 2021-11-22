@@ -35,7 +35,7 @@ Las Páginas Web Personales se encuentran actualmente alojado en un entorno On-P
 
 La estrategia local ha funcionado durante años, pero ha requerido una gran inversión de tiempo y dinero para capacitar a los equipos, administrar entornos y responder a interrupciones. Muchos de estas interrupciones han sido el resultado de sistemas mal configurados, capacidad inadecuada para manejar picos de tráfico y prácticas de monitoreo inconsistentes. Se requiere utilizar una plataforma escalable y resistente, que pueda contener estos entornos sin problemas, brindar una experiencia de usuario consistente y estable que nos posicione para el crecimiento futuro.
 
-# Enfoque en la Entrega de Valor al Cliente 
+# 1-Enfoque en la Entrega de Valor al Cliente 
 
 El objetivo es implementar una solución que permita desplegar el producto Personal Web Page cumpliendo con los siguientes requisitos:
 
@@ -52,7 +52,7 @@ El siguiente diagrama muestra la arquitectura referencial de la solución:
 ![image](https://user-images.githubusercontent.com/74636101/142863174-9fd57a58-f100-4bb2-b60c-e366fbdc7992.png)
 
 
-# Desarrollo Ágil
+# 2-Desarrollo Ágil
 
 Para efectos de poder disminuir el tiempo de Actualización del Contenido de los Clientes por parte del equipo de contenido, se proporciona un Pipeline de Continuos Deployment que automáticamente aplicará los cambios desde el momento en el que se incorporen al repositorio de código CodeCommit. 
 Para ello se proporcionan los siguientes servicios para el equipo de Contenido.
@@ -69,7 +69,7 @@ Para ello se proporcionan los siguientes servicios para el equipo de Contenido.
 4.	Un job de AWS CodeBuild empaqueta los ficheros y los almacena como artefactos para el siguiente paso.
 5.	El pipeline sube los artefactos al bucket del sitio web, estableciendo las cabeceras de caché adecuadas.
 
-# Servicios Gestionados de Próxima Generación
+# 3-Servicios Gestionados de Próxima Generación
 
 El equipo TI Personal Brand normalmente es responsable de adquirir, diseñar, implementar, configurar y mantener los componentes físicos y virtuales que componen la infraestructura de TI. En concreto, el equipo TI Personal Brand debe adoptar Servicios Gestionados de Próxima Generación para ofrecer y mantener diversos servicios, aplicaciones y tecnologías necesarias en la Operaciones del Negocio de una Compañía.
 
